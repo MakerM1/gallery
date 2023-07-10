@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Test</title>
+    <script
+      src="https://kit.fontawesome.com/2d3e948390.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/global.css" />
+  </head>
+  <body class="preload js-body" onkeydown="keydown(); themeKey()">
+    <button class="light js-button" onclick="theme()">
+      <i class="fa-solid fa-moon fa-2xl js-icon" style="color: #000000"></i>
+    </button>
+    <section class="s1">
+      <div class="conteiner">
+        <div class="img-box1">
+          <img
+            src="images/image1.jpg"
+            alt=""
+            class="img-closed js-img1 js-imgs"
+            onclick="openClose1()"
+          />
+        </div>
+        <div class="img-box1">
+          <img
+            src="images/image2.jpg"
+            alt=""
+            class="img-closed js-img2 js-imgs"
+            onclick="openClose2()"
+          />
+        </div>
+        <div class="img-box1">
+          <img
+            src="images/image3.jpg"
+            alt=""
+            class="img-closed js-img3 js-imgs"
+            onclick="openClose3()"
+          />
+        </div>
+        <div class="img-box1">
+          <img
+            src="images/image4.jpg"
+            alt=""
+            class="img-closed js-img4 js-imgs"
+            onclick="openClose4()"
+          />
+        </div>
+        <div class="img-box1">
+          <img
+            src="images/image5.jpg"
+            alt=""
+            class="img-closed js-img5 js-imgs"
+            onclick="openClose5()"
+          />
+        </div>
+      </div>
+    </section>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
